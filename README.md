@@ -1,2 +1,2 @@
-# sntc
-Website for SNTC, IIT Mandi
+# computer science council
+Website for csc
