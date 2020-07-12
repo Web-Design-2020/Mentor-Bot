@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'Myriad Pro Light SemiExtended';
+    src:url("../fonts/Myriad_Pro_Light_SemiExtended.otf");
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Medium";
+    src:url("../fonts/AvenirLTStd-Medium.otf");
+}
+
+#body-content {
+    background-color: #242A2E;
+}
+
+.top-text{
+    font-size: 1.3vw;
+    font-family: "AvenirLTStd-Medium";
+    margin-top: 2vw;
+    float: left;
+    padding-left: 0.3vw;
+    color: #BFBFBF;
+    border-bottom: solid .5px #f3fb04;
+    padding-bottom: 0.2vw;
+}
+
+.top{
+    margin-left: 20.3vw;
+    margin-top: 3vw;
+    text-align: center;
+   
+}
+
+#t1 {
+    margin-right: 4%; 
+    padding-right: 9%;
+}
+
+#t2 {
+    padding-right: 10%;
+}
+
+#t3 {
+    padding-left: 6%;
+}
+
+#t4 {
+    margin-left: 4.6%;
+    padding-left: 6%;
+}
+
+#mid-logo {
+    float: left;
+}
+
+.logo
+{
+    height:7vw;
+}
+
+.def {
+    text-align: center;
+    font-family: "AvenirLTStd-Medium";
+    display: inline-block;
+    font-size:1.48vw; 
+    margin-left: 36.5vw;
+    letter-spacing: 0.188em;
+    margin-top:1%;
+    color:#BFBFBF;
+    margin-bottom: 50px;
+}
+
+#college {
+    color: white;
+    display: block;
+    padding-top: 5px;
+}
+
+.featurette-heading {
+    color: white !important;
+}
+
+.tab-content {
+    font-family: "AvenirLTStd-Medium";
+}
+
+[id^="wheelnav-indexDiv"] {
+    height: 50px;
+    width: 50px;
+}
+
+.text-muted {
+    line-height: 25px;
+}
+
+#wheeldef {
+    padding-top: 15px;
+}
+
+.active-main, .top-text:hover, .top-text:focus{
+    color: #f3fb04 !important;
+}
+
+.service-head {
+    color: white;
+    font-size:1.4vw; 
+}
+
+.list-head {
+    font-size:1.2vw; 
+    color: white;
+}
+
+.list-def {
+    font-size:1.1vw; 
+    color:#BFBFBF;
+}
+
+.marketing {
+    font-family: "AvenirLTStd-Medium";
+}
+
+.logo-def {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+}
+
+.contact-left {
+    padding-top: 10%;
+    font-size: 1.4vw;
+    padding-left: 10% !important;
+}
+
+.contact-right {
+    text-align: center;
+    padding-top: 5% !important;
+}
+
+.speaker-row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.circle-holder {
+    margin: 0 auto !important;
+}
+
+.speaker-text {
+    font-size: 1.3vw;
+    font-family: "AvenirLTStd-Medium";
+}
+
+.speaker-company {
+    color: white;
+}
+
+.speaker-about {
+    color: white !important;
+}
+
+.speaker-name {
+    padding-top:5%;
+}
+
+.circle{
+    border-radius:50%;
+    border:4px solid #FFFFFF;
+    width:170px;
+    height:170px;
+}
+
+#services {
+    text-align: center;
+    padding-left: 1.8vw
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+}
+
+.service-card {
+    height: 300px;
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    margin: 2rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 990px) {
+    #wheeldef {
+        text-align: center;
+    }
+    #indexDiv {
+        text-align: center;
+    }
+    .top-text {
+        font-size: 2.7vw !important; 
+    }
+    #t1 {
+        margin-right: 4%; 
+        padding-right: 4%;
+        margin-left: -6.7%;
+    }
+    
+    #t2 {
+        padding-right: 5%;
+    }
+    
+    #t3 {
+        padding-left: 5%;
+    }
+    
+    #t4 {
+        margin-left: 4%;
+        padding-left: 4%;
+    }
+
+    .logo {
+        height:12vw;
+    }
+
+    .def {
+        font-size: 2vw;
+        margin-left: 30.5vw;
+    }
+
+    .service-head{
+        font-size: 3vw !important;
+    }
+
+    .list-def {
+        font-size: 2vw !important;
+    }
+
+    .list-head {
+        font-size: 2.3vw !important;
+    }
+    
+    .logo-def {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vw;
+    }
+
+    .speaker-text {
+        font-size: 2vw;
+    }
+    .service-list {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #wheeldef {
+        text-align: center;
+    }
+    #indexDiv {
+        text-align: center;
+        margin-top: -15%;
+    }
+    .top-text {
+        font-size: 4.5vw !important; 
+    }
+    #t1 {
+        margin-right: 1%; 
+        padding-right: 1%;
+        margin-left: -17%;
+    }
+    
+    #t2 {
+        padding-right: 1%;
+    }
+    
+    #t3 {
+        padding-left: 1%;
+    }
+    
+    #t4 {
+        margin-left: 2%;
+        padding-left: 1%;
+    }
+
+    .logo {
+        height:20vw;
+        padding-left: 5%
+    }
+
+    .def {
+        font-size: 4.2vw;
+        margin-left: 10vw;
+    }
+
+    .service-head{
+        font-size: 6vw !important;
+        text-align: left;
+    }
+
+    .list-def {
+        font-size: 3.5vw !important;
+        text-align: left;
+    }
+
+    .list-head {
+        font-size: 5vw !important;
+        text-align: left;
+    }
+    
+    .logo-def {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vw;
+    }
+
+    .speaker-text {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .featurette-heading {
+        margin-top: -8%;
+        font-size: 6.2vw;
+    }
+
+    .text-muted {
+        font-size: 4vw;
+        line-height: 2px;
+    }
+
+    .contact-left {
+        font-size: 4vw !important;
+    }
+
+    .circle{
+        border-radius:50%;
+        border:4px solid #FFFFFF;
+        width:130px;
+        height:130px;
+    }
+
+    /* For navwheel to become according to window size for small devices */
+    svg {
+        height: 80%;
+        width: 80%;
+        top: 20px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .service-list {
+        display: inline-block;
+    }
+} 
