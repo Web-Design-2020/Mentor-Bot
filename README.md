@@ -1,2 +1,2 @@
-# Web Version-1.0
-Web Project 
+# Make it Simple!!
+Journey towards understanding the fundamentals ... 
