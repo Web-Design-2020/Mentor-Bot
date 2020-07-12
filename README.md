@@ -1,2 +1,2 @@
-# Make it Simple!!
-Journey towards understanding the fundamentals ... 
+# sntc
+Website for SNTC, IIT Mandi
